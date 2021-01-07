@@ -96,7 +96,6 @@ public class PhoneController extends HttpServlet {
 			 
 			//Dao 수정
 			phoneDao.personUpdate(personVo);
-			request.setAttribute("pVo", personVo);
 			
 			//리다이렉트
 			response.sendRedirect("/phonebook2/pbc?action=list");
