@@ -22,7 +22,7 @@
 		아래 항목을 수정하고 "수정" 버튼을 클릭하세요
 	</p>
 	
-	<form action="/phonebook2/pbc" method="get">
+	<form action="/phonebook2/pbc" method="post">
 	
 		이름(name): <input type="text" name="name" value="<%=personVo.getName() %>"><br>
 		핸드폰(hp): <input type="text" name="hp" value="<%=personVo.getHp() %>"><br>
